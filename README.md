@@ -1,2 +1,3 @@
-# self-csharp
-『独習C# 第５版』
+# 独習C# 第5版
+
+https://www.shoeisha.co.jp/book/detail/9784798175560
