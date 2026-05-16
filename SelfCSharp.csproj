@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap02.CastBad</StartupObject>
+	<StartupObject>SelfCSharp.Chap02.Parse</StartupObject>
   </PropertyGroup>
 
 </Project>
