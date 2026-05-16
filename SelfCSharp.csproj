@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap02.ArrayRange</StartupObject>
+	<StartupObject>SelfCSharp.Chap02.ArrayMulti</StartupObject>
   </PropertyGroup>
 
 </Project>
