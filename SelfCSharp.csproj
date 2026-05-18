@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap04.SwitchExp</StartupObject>
+	<StartupObject>SelfCSharp.Chap04.SwitchExpWhen</StartupObject>
   </PropertyGroup>
 
 </Project>
