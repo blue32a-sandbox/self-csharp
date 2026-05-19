@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap04.ForComma2</StartupObject>
+	<StartupObject>SelfCSharp.Chap04.Foreach</StartupObject>
   </PropertyGroup>
 
 </Project>
