@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SelfCSharp": {
+      "commandName": "Project",
+      "commandLineArgs": "太郎 次郎 三郎"
+    }
+  }
+}
