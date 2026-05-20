@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap05.StrAll</StartupObject>
+	<StartupObject>SelfCSharp.Chap05.StrSubstring</StartupObject>
   </PropertyGroup>
 
 </Project>
