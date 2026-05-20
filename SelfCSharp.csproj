@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<StartupObject>SelfCSharp.Chap05.StrFormat</StartupObject>
+    <StartupObject>SelfCSharp.Chap05.RegIsMatch</StartupObject>
   </PropertyGroup>
 
 </Project>
