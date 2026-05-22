@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap05.TimeNow</StartupObject>
+    <StartupObject>SelfCSharp.Chap05.TimeNew</StartupObject>
   </PropertyGroup>
 
 </Project>
