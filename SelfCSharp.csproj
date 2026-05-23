@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap05.SpanBasic</StartupObject>
+    <StartupObject>SelfCSharp.Chap05.SpanString</StartupObject>
   </PropertyGroup>
 
 </Project>
