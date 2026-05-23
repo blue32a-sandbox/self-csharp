@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap05.FileProcess</StartupObject>
+    <StartupObject>SelfCSharp.Chap05.DirectoryProcess</StartupObject>
   </PropertyGroup>
 
 </Project>
