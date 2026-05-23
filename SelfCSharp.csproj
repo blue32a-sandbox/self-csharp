@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap05.DirectoryStaticProcess</StartupObject>
+    <StartupObject>SelfCSharp.Chap05.MathExample</StartupObject>
   </PropertyGroup>
 
 </Project>
