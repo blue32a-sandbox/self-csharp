@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap06.ListSort2</StartupObject>
+    <StartupObject>SelfCSharp.Chap07.ClassBasic</StartupObject>
   </PropertyGroup>
 
 </Project>
