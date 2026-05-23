@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap06.CollectionInitializeIndex</StartupObject>
+    <StartupObject>SelfCSharp.Chap06.ListForeach</StartupObject>
   </PropertyGroup>
 
 </Project>
