@@ -7,7 +7,7 @@
             var str = "WINGSプロジェクト";
             var sp = str.AsSpan(5, 5);
             // 文字列は不変なので、戻り値は読み取り専用のReadOnlySpan
-            sp[2] = 'ゴ'; // エラー
+            //sp[2] = 'ゴ'; // エラー
         }
     }
 }
