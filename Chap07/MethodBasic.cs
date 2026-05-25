@@ -5,9 +5,13 @@
         public string firstName = "";
         public string lastName = "";
 
-        public string Show()
+        //public string Show()
+        //{
+        //    return $"名前は{this.lastName}{this.firstName}です。";
+        //}
+        public void Show()
         {
-            return $"名前は{this.lastName}{this.firstName}です。";
+            Console.WriteLine($"名前は{this.lastName}{this.firstName}です。");
         }
     }
 
@@ -18,7 +22,8 @@
             var p = new Person();
             p.firstName = "太郎";
             p.lastName = "山田";
-            Console.WriteLine(p.Show());
+            //Console.WriteLine(p.Show());
+            p.Show();
         }
     }
 }
