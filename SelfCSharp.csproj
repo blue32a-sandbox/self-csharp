@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap07.ClassConst.ConstBasic</StartupObject>
+    <StartupObject>SelfCSharp.Chap07.Construct.ConstructorBasic</StartupObject>
   </PropertyGroup>
 
 </Project>
