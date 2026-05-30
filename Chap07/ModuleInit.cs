@@ -8,13 +8,13 @@ namespace SelfCSharp.Chap07
         [ModuleInitializer]
         public static void Init()
         {
-            Console.WriteLine("Init is called!!");
+            //Console.WriteLine("Init is called!!");
         }
 
         [ModuleInitializer]
         public static void Init2()
         {
-            Console.WriteLine("Init2 is called!!");
+            //Console.WriteLine("Init2 is called!!");
         }
     }
 
