@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap07.PassRefBasic</StartupObject>
+    <StartupObject>SelfCSharp.Chap07.PassRefArray</StartupObject>
   </PropertyGroup>
 
 </Project>
