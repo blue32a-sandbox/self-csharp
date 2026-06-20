@@ -12,6 +12,14 @@
                 return Array.IndexOf(this._month, name) + 1;
             }
         }
+
+        public string this[int index]
+        {
+            get
+            {
+                return this._month[index - 1];
+            }
+        }
     }
 
     internal class IndexerString
@@ -20,6 +28,7 @@
         {
             var mon = new JapaneseMonth();
             Console.WriteLine(mon["如月"]); // 2
+            Console.WriteLine(mon[2]); // 如月
         }
     }
 }
