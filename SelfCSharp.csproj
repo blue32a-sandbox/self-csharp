@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap08.Polymo.PolymorphismBasic</StartupObject>
+    <StartupObject>SelfCSharp.Chap08.Abstract.AbstractBasic</StartupObject>
   </PropertyGroup>
 
 </Project>
