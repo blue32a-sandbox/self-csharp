@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap08.PatternLogic2</StartupObject>
+    <StartupObject>SelfCSharp.Chap08.ExtensionUse.ExtensionClient</StartupObject>
   </PropertyGroup>
 
 </Project>
