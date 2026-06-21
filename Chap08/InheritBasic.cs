@@ -8,6 +8,11 @@ namespace SelfCSharp.Chap08
         {
             return $"{this.LastName}{this.FirstName}は、働きます。";
         }
+
+        public new string Show()
+        {
+            return $"会社員の{this.LastName}{this.FirstName}です。";
+        }
     }
 
     internal class InheritBasic
