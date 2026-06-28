@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap09.ThrowRe</StartupObject>
+    <StartupObject>SelfCSharp.Chap09.MyAppExceptionClient</StartupObject>
   </PropertyGroup>
 
 </Project>
