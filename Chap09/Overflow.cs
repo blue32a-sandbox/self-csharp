@@ -4,18 +4,8 @@
     {
         static void Main(string[] args)
         {
-            try
-            {
-                checked
-                {
-                    var i = int.MaxValue;
-                    Console.WriteLine(++i);
-                }
-            }
-            catch (OverflowException ex)
-            {
-                Console.WriteLine("オーバーフロー発生！");
-            }
+            var i = int.MaxValue;
+            Console.WriteLine(checked(++i));
         }
     }
 }
