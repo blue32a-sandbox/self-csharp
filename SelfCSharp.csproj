@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap09.TryWhen</StartupObject>
+    <StartupObject>SelfCSharp.Chap09.TryMulti</StartupObject>
   </PropertyGroup>
 
 </Project>
