@@ -1,6 +1,6 @@
 ﻿namespace SelfCSharp.Chap09
 {
-    enum Season
+    enum Season : long
     {
         Spring,
         Summer,
