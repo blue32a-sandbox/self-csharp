@@ -2,7 +2,7 @@
 {
     enum Season : long
     {
-        Spring,
+        Spring = 1,
         Summer,
         Autumn,
         Winter
