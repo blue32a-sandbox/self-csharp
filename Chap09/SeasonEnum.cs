@@ -5,7 +5,8 @@
         Spring = 1,
         Summer,
         Autumn,
-        Winter
+        Winter,
+        All = Spring + Summer + Autumn + Winter,
     }
 
     internal class SeasonEnum
@@ -19,6 +20,7 @@
                     Season.Summer => "夏です。",
                     Season.Autumn => "秋です。",
                     Season.Winter => "冬です。",
+                    Season.All => "全ての季節です。",
                     _ => "不明な季節です。"
                 }
              );
@@ -34,6 +36,8 @@
 
             // コンパイルエラー
             //se.ProcessSeason(4);
+
+            se.ProcessSeason(Season.All);
         }
     }
 }
