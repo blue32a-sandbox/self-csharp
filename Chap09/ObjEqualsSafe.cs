@@ -3,7 +3,8 @@
     internal class Person : IEquatable<Person>
     {
         public string FirstName { get; private set; }
-        public string LastName { get; private set; }
+        //public string LastName { get; private set; }
+        public string LastName { get; set; }
 
         public Person(string firstName, string lastName)
         {
@@ -44,13 +45,17 @@
     {
         static void Main(string[] args)
         {
-            var p1 = new Person("太郎", "山田");
-            var p2 = new Person("太郎", "山田");
+            var p = new Person("掛谷", "哲夫");
+            Console.WriteLine(p.GetHashCode());
+            var d = new Dictionary<Person, int>();
+            d.Add(p, 10);
 
-            Console.WriteLine(p1.Equals(p2)); // True
+            // ハッシュ値を算出するためのプロパティを変更する
+            p.LastName = "山田";
+            Console.WriteLine(p.GetHashCode());
 
-            var p3 = new Person("花子", "山田");
-            Console.WriteLine(p1.Equals(p3)); // False
+            // エラー（ハッシュ値が変化したため、キーが見つからない）
+            //Console.WriteLine(d[p]);
         }
     }
 }
