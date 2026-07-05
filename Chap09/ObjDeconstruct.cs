@@ -18,6 +18,13 @@
             firstName = this.FirstName;
             LastName = this.LastName;
         }
+
+        public void Deconstruct(out string firstName, out string LastName, out int age)
+        {
+            firstName = this.FirstName;
+            LastName = this.LastName;
+            age = this.Age;
+        }
     }
 
     internal class ObjDeconstruct
@@ -25,9 +32,10 @@
         static void Main(string[] args)
         {
             var p = new Person("太郎", "山田", 20);
-            var (fn, ln) = p;
+            var (fn, ln, age) = p;
             Console.WriteLine(fn); // 太郎
             Console.WriteLine(ln); // 山田
+            Console.WriteLine(age); // 20
         }
     }
 }
