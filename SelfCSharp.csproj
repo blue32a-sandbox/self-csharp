@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SelfCSharp.Chap10.Delegate2.DelegateMulti</StartupObject>
+    <StartupObject>SelfCSharp.Chap10.Delegate3.DelegateMultiResult</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
