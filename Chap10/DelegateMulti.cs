@@ -26,7 +26,8 @@
             var dm = new DelegateMulti();
             OutputProcess? proc = AddQuote;
             proc += Front4;
-            dm.ArrayWalk(data, proc);
+            proc -= Front4;
+            dm.ArrayWalk(data, proc!);
         }
     }
 }
