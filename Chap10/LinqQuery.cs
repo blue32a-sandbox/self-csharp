@@ -6,7 +6,7 @@
         {
             var bs = from b in AppTables.Books
                      where b.Price < 3000
-                     select b.Title;
+                     select new { Title = b.Title, Price = b.Price };
 
             foreach (var b in bs)
             {
